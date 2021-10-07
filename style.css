@@ -37,4 +37,15 @@ img {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
+  .aimg {
+    display: none;
+    }
+  .bimg {
+    width: 100%;
+  }  
+}
+@media (max-width: 959px) {
+  .bimg {
+    display: none;
+  }
 }
